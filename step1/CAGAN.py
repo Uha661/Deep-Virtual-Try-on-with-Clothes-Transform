@@ -14,8 +14,8 @@ from keras.initializers import RandomNormal
 # In[2]:
 
 
-from instance_normalization import InstanceNormalization
-
+#from instance_normalization import InstanceNormalization
+from keras_contrib.layers import InstanceNormalization
 
 # In[3]:
 
