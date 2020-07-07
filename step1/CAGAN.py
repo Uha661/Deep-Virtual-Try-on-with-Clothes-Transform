@@ -473,7 +473,7 @@ train_A = load_data('./{}/1/*.jpg'.format(data))
 filenames_1 = load_data('./{}/1/*.jpg'.format(data))
 filenames_5 = load_data('./{}/5/*.jpg'.format(data))
 
-assert len(train_A) >= 1
+assert train_A != null
 
 
 # ## Other utilities
