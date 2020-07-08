@@ -492,7 +492,7 @@ def minibatch(data, batchsize):
             shuffle(data)
             i = 0
             epoch+=1        
-        rtn = [read_image(data[j]) for j in range(i,i+size)]
+        rtn = [read_image(data[j]) for j in range(i,i+size-1)]
         i+=size
         tmpsize = yield epoch, np.float32(rtn)       
 
